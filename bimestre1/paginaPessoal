@@ -15,16 +15,38 @@
 
     </header>
 
+
+
+    <nav>
+
+        <ul>
+  
+              <li><a href="#about">Sobre Mim</a></li>
+              <li><a href="#curiosities">Curiosidades</a></li>
+              <li><a href="#School">Historico Escolar</a></li>
+              <li><a href="#funny case">Historia Engraçada</a></li>
+              <li><a href="#skills">Abilidades</a></li>
+              <li><a href="#contacts">Contatos</a></li>
+  
+        </ul>
+
+
+
+
+
+
     <section id="about">
         <h2>Sobre Mim:</h2>
         <p>Meu Nome é Miguel Carlos moro em ceará-mirim, eu gosto muito de jogar jogos online e ficar conversando com meus amigos e tenho um sonho de ser rico um dia.</p>
     </section>
     
 
+
+
     <section id="curiosities">
         <h2>Curiosidades sobre mim:</h2>
 
-        <lu>
+        <ol>
 
             <li>Tenho 3 personagens que definem minha personalidade</li>
             <li>A maioria do Tempo eu estou ouvindo musica</li>
@@ -32,7 +54,7 @@
             <li>Gosto muito do Visual, parecer bonito não é ser XD</li>
             <li>Sou MUITO preguiçoso e qualquer coisa que exija um pouco de trabalho deixo pra ultima hora</li>
 
-        </lu>
+        </ol>
         
     </section>
 
