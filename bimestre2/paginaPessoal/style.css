@@ -1,9 +1,9 @@
 /* Cores e Paleta */
 :root {
-    --primary-color: #181C26; /* Cor primária - Azul escuro */
-    --secondary-color: #9FA3A6; /* Cor secundária - Laranja */
+    --primary-color: #181C26; /* Cor primária - preto acinzentado */
+    --secondary-color: #9FA3A6; /* Cor secundária - preto */
     --highlight-color: #515659; /* Cor de destaque - Cinza claro */
-    --background-color: #999999; /* Cor de fundo - Branco sujo */
+    --background-color: #999999; /* Cor de fundo - cinza suave */
     --text-color: #000000; /* Cor do texto - Preto suave */
 }
 
