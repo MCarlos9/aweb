@@ -1,0 +1,186 @@
+/* Cores e Paleta */
+:root {
+    --primary-color: #181C26;
+    --secondary-color: #9FA3A6;
+    --highlight-color: #515659;
+    --background-color: #404040;
+    --text-color: #000000;
+}
+
+/* Resetando Margens e Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da Página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+/* Header */
+header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    grid-column: 1 / 13;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 36px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Seção Hero */
+.hero-section {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 60px 0;
+    grid-column: 1 / 13;
+    display: flex;
+    
+}
+
+.hero-content h2 {
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.hero-image {
+    width: 375px;
+    height: 375px;
+    border-radius: 5%;
+    text-align: right;
+}
+
+/* Seção Sobre Mim */
+#about {
+    background-color: (var(--primary-color));
+    padding: 40px;
+    text-align: center;
+    font-size: 18px;
+    max-width: 800px;
+    margin: 100px;
+    grid-column: 3 / 11;
+    color: #fff;
+    
+}
+
+#about h2{
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+/* Seção Curiosidades */
+#curiosities {
+    background-color: var(--highlight-color);
+    padding: 40px 20px;
+    grid-column: 3 / 11;
+}
+
+#curiosities h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    width: 100%;
+    overflow: hidden; /* Para limpar floats */
+    text-align: center; /* Alinha os cards no centro */
+    display: block; /* Garante que o contêiner ocupe toda a largura disponível */
+}
+
+/* Card */
+.card {
+    width: 30%; /* Cada card ocupa 30% da largura da linha */
+    margin: 0 1%; /* Espaçamento entre os cards horizontalmente */
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: inline-block; /* Coloca os cards em linha como inline, mas com controle de bloco */
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total do card */
+    height: 350px; /* Altura fixa para os cards */
+    overflow: hidden; /* Garante que o conteúdo não saia dos limites do card */
+}
+
+/* Imagem do Card */
+.card img {
+    width: 100%; /* A imagem ocupa toda a largura do card */
+    height: 200px; /* Altura fixa para as imagens */
+    object-fit: cover; /* A imagem preenche o espaço sem distorcer, cortando se necessário */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Texto do Card */
+.card p {
+    font-size: 16px;
+    margin-top: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+/* Limpeza do Float */
+.cards-container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Contatos */
+#contacts {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    grid-column: 3 / 11;
+}
+
+#contacts ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contacts ul li {
+    margin-bottom: 10px;
+}
+
+#contacts ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    grid-column: 1 / 13;
+}
